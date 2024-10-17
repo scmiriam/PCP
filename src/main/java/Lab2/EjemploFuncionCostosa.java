@@ -66,11 +66,11 @@ class EjemploFuncionCostosa {
 
     // Gestion de hebras para la implementacion paralela ciclica
     // (A) ....
-    Thread[] threads = new HebraCiclicaEj2[numHebras];
+    Thread[] threads = new HebraCiclicaEj2C[numHebras];
 
 
     for (int i=0; i<numHebras; i++) {
-      threads[i] = new HebraCiclicaEj2(i, numHebras, n, vectorX, vectorY);
+      threads[i] = new HebraCiclicaEj2C(i, numHebras, n, vectorX, vectorY);
       threads[i].start();
     }
 
@@ -102,10 +102,10 @@ class EjemploFuncionCostosa {
 
     t1Bloques = System.nanoTime();
 
-    threads = new HebraBloquesEj2[numHebras];
+    threads = new HebraBloquesEj2C[numHebras];
 
     for (int i=0; i<numHebras; i++) {
-      threads[i] = new HebraBloquesEj2(i, numHebras, n, vectorX, vectorY);
+      threads[i] = new HebraBloquesEj2C(i, numHebras, n, vectorX, vectorY);
       threads[i].start();
     }
 
@@ -185,4 +185,53 @@ class EjemploFuncionCostosa {
 // Crea las clases adicionales que sean necesarias
 // (D) ... 
 // 
+
+class HebraCiclicaEj2C extends Thread{
+  private int id, numHebras, n;
+  private double vectorX[], vectorY[];
+
+  public HebraCiclicaEj2C(int id, int numHebras, int n, double vectorX[], double vectorY[]) {
+    super();
+    this.id = id;
+    this.numHebras = numHebras;
+    this.n = n;
+    this.vectorX = vectorX;
+    this.vectorY = vectorY;
+  }
+
+  @Override
+  public void run() {
+    for (int i=id; i<n; i+=numHebras) {
+      vectorY[ i ] = EjemploFuncionCostosa.evaluaFuncion( vectorX[ i ] );
+    }
+  }
+}
+
+class HebraBloquesEj2C extends Thread{
+  private int id, numHebras, n;
+  private double vectorX[], vectorY[];
+
+  public HebraBloquesEj2C(int id, int numHebras, int n, double[] vectorX, double[] vectorY) {
+    super();
+    this.id = id;
+    this.numHebras = numHebras;
+    this.n = n;
+    this.vectorX = vectorX;
+    this.vectorY = vectorY;
+  }
+
+  @Override
+  public void run(){
+    int tam = (n+numHebras-1)/numHebras;
+    int ini = id*tam;
+    int fin = Math.min(n, ini+tam);
+
+    for(int i=ini; i<fin; i++){
+      vectorY[ i ] = EjemploFuncionCostosa.evaluaFuncion(vectorX[ i ]);
+
+    }
+
+  }
+}
+
 

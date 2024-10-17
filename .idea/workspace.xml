@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62a52b17-a032-4a9c-bb8e-9e737f218d28" name="Changes" comment="">
+    <list default="true" id="62a52b17-a032-4a9c-bb8e-9e737f218d28" name="Changes" comment="holaa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploDaemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploIncrementos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploIncrementos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/GUIPrimoSencillo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/GUIPrimoSencillo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionCostosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionCostosa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionSencilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionSencilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj2.java" beforeDir="false" />
+    </list>
+    <list id="c6aa35a5-14ca-4de2-b181-a3813102e700" name="Changes by teo2d" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploMuestraNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploMuestraNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +81,7 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploFuncionSencilla">
+  <component name="RunManager" selected="Application.EjemploFuncionCostosa">
     <configuration name="EjemploCreacionRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runnable.EjemploCreacionRunnable" />
       <module name="LabsPCP" />
@@ -196,11 +192,24 @@
       <workItem from="1729006062343" duration="34000" />
       <workItem from="1729021703755" duration="5698000" />
       <workItem from="1729114076920" duration="3704000" />
-      <workItem from="1729146921739" duration="912000" />
+      <workItem from="1729146921739" duration="1600000" />
     </task>
+    <task id="LOCAL-00001" summary="holaa">
+      <option name="closed" value="true" />
+      <created>1729147886310</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729147886310</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="holaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="holaa" />
   </component>
 </project>

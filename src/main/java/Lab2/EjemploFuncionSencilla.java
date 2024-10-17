@@ -104,10 +104,10 @@ class EjemploFuncionSencilla {
 
     t1Bloques = System.nanoTime();
 
-    threads = new HebraBloquesEj2[numHebras];
+    threads = new HebraBloquesEj2C[numHebras];
 
     for (int i=0; i<numHebras; i++) {
-      threads[i] = new HebraBloquesEj2(i, numHebras, n, vectorX, vectorY);
+      threads[i] = new HebraBloquesEj2C(i, numHebras, n, vectorX, vectorY);
       threads[i].start();
     }
 
@@ -186,5 +186,51 @@ class EjemploFuncionSencilla {
 
 // Crea las clases adicionales que sean necesarias
 // (D) ... 
-// 
+//
+class HebraCiclicaEj2 extends Thread{
+  private int id, numHebras, n;
+  private double vectorX[], vectorY[];
+
+  public HebraCiclicaEj2(int id, int numHebras, int n, double vectorX[], double vectorY[]) {
+    super();
+    this.id = id;
+    this.numHebras = numHebras;
+    this.n = n;
+    this.vectorX = vectorX;
+    this.vectorY = vectorY;
+  }
+
+  @Override
+  public void run() {
+    for (int i=id; i<n; i+=numHebras) {
+      vectorY[ i ] = EjemploFuncionSencilla.evaluaFuncion( vectorX[ i ] );
+    }
+  }
+}
+class HebraBloquesEj2 extends Thread{
+  private int id, numHebras, n;
+  private double vectorX[], vectorY[];
+
+  public HebraBloquesEj2(int id, int numHebras, int n, double[] vectorX, double[] vectorY) {
+    super();
+    this.id = id;
+    this.numHebras = numHebras;
+    this.n = n;
+    this.vectorX = vectorX;
+    this.vectorY = vectorY;
+  }
+
+  @Override
+  public void run(){
+    int tam = (n+numHebras-1)/numHebras;
+    int ini = id*tam;
+    int fin = Math.min(n, ini+tam);
+
+    for(int i=ini; i<fin; i++){
+      vectorY[ i ] = EjemploFuncionSencilla.evaluaFuncion( vectorX[ i ] );
+
+    }
+
+  }
+}
 
