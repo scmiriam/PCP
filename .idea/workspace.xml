@@ -5,19 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a52b17-a032-4a9c-bb8e-9e737f218d28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploCreacionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploDaemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/EjemploIncrementos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/EjemploIncrementos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab1/GUIPrimoSencillo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab1/GUIPrimoSencillo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionCostosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionCostosa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionSencilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionSencilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploMuestraNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploMuestraNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2n9vhOiYEL0jPdSY4UJ7zYk7ma7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,15 +49,134 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EjemploCreacionRunnable.executor": "Run",
+    "Application.EjemploCreacionThread.executor": "Run",
+    "Application.EjemploDaemon.executor": "Run",
+    "Application.EjemploFuncionCostosa.executor": "Run",
+    "Application.EjemploFuncionSencilla.executor": "Run",
+    "Application.EjemploMuestraNumeros.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/es/uji/Miri/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\scafa\IdeaProjects\LabsPCP\src\main\java\Lab2" />
+      <recent name="C:\Users\scafa\IdeaProjects\LabsPCP\src\main\java\Lab1" />
+      <recent name="C:\Users\scafa\IdeaProjects\LabsPCP\src\main\java\es\uji\Miri" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lab2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjemploFuncionSencilla">
+    <configuration name="EjemploCreacionRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runnable.EjemploCreacionRunnable" />
+      <module name="LabsPCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runnable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploCreacionThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.EjemploCreacionThread" />
+      <module name="LabsPCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploDaemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daemon.EjemploDaemon" />
+      <module name="LabsPCP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Daemon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploFuncionCostosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2.EjemploFuncionCostosa" />
+      <module name="LabsPCP" />
+      <option name="PROGRAM_PARAMETERS" value="4 50000000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploFuncionSencilla" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2.EjemploFuncionSencilla" />
+      <module name="LabsPCP" />
+      <option name="PROGRAM_PARAMETERS" value="4 50000000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploMuestraNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2.EjemploMuestraNumeros" />
+      <module name="LabsPCP" />
+      <option name="PROGRAM_PARAMETERS" value="4 13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjemploFuncionCostosa" />
+        <item itemvalue="Application.EjemploMuestraNumeros" />
+        <item itemvalue="Application.EjemploDaemon" />
+        <item itemvalue="Application.EjemploCreacionRunnable" />
+        <item itemvalue="Application.EjemploCreacionThread" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,22 +192,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728398226682</updated>
-      <workItem from="1728398227723" duration="3000" />
+      <workItem from="1728398227723" duration="5758000" />
+      <workItem from="1729006062343" duration="34000" />
+      <workItem from="1729021703755" duration="5698000" />
+      <workItem from="1729114076920" duration="3704000" />
+      <workItem from="1729146921739" duration="912000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/es/uji/Miri/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,11 +1,11 @@
-package org.example.deamon;
+package Lab1;
 
-class MiHebra extends Thread {
+class MiHebra2 extends Thread {
   int miId;
   int num1;
   int num2;
 
-  public MiHebra( int miId, int num1, int num2 ) {
+  public MiHebra2( int miId, int num1, int num2 ) {
     this.miId=miId;
     this.num1 = num1;
     this.num2 = num2;
@@ -27,8 +27,8 @@ class EjemploDaemon {
   public static void main( String args[] ) {
     System.out.println( "Hebra Principal inicia" );
     // ... (C)
-    Thread t0 = Thread.startVirtualThread(new MiHebra(0, 1, 1000000));
-    Thread t1 = Thread.startVirtualThread(new MiHebra(1, 1, 1000000));
+    Thread t0 = Thread.startVirtualThread(new MiHebra2(0, 1, 1000000));
+    Thread t1 = Thread.startVirtualThread(new MiHebra2(1, 1, 1000000));
     /*MiHebra t0 = new MiHebra(0, 1 , 1000000);
     MiHebra t1 = new MiHebra(1, 1,  1000000);
     t0.start();

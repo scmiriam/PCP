@@ -1,4 +1,4 @@
-package org.example.runneable;
+package Lab1;
 
 class MiRun implements Runnable {
   int miId;

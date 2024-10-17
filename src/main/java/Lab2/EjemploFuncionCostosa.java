@@ -1,3 +1,5 @@
+package Lab2;
+
 // ============================================================================
 class EjemploFuncionCostosa {
 // ============================================================================
@@ -5,7 +7,7 @@ class EjemploFuncionCostosa {
   // --------------------------------------------------------------------------
   public static void main( String args[] ) {
     int     n, numHebras;
-    long    t1, t2;
+    long    t1, t2, t1Ciclica, t2Ciclica, t1Bloques, t2Bloques;
     double  sumaX, sumaY, ts, tc, tb;
 
     // Comprobacion y extraccion de los argumentos de entrada.
@@ -48,37 +50,84 @@ class EjemploFuncionCostosa {
     t2 = System.nanoTime();
     ts = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
     System.out.println( "Tiempo secuencial (seg.):                    " + ts );
-    //// imprimeResultado( vectorX, vectorY );
+    //imprimeResultado( vectorX, vectorY );
     // Comprueba el resultado. 
     sumaX = sumaVector( vectorX );
     sumaY = sumaVector( vectorY );
-    System.out.println( "Suma del vector X:          " + sumaX );
-    System.out.println( "Suma del vector Y:          " + sumaY );
-/*
+    System.out.println( "Suma del vector X:                    " + sumaX );
+    System.out.println( "Suma del vector Y:                    " + sumaY );
+
     //
     // Implementacion paralela ciclica.
-    //
+
     inicializaVectorX( vectorX );
     inicializaVectorY( vectorY );
-    t1 = System.nanoTime();
+    t1Ciclica = System.nanoTime();
+
     // Gestion de hebras para la implementacion paralela ciclica
     // (A) ....
-    t2 = System.nanoTime();
-    tc = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
-    System.out.println( "Tiempo paralela ciclica (seg.):              " + tc );
-    System.out.println( "Incremento paralela ciclica:                 " + ... ); // (B)
+    Thread[] threads = new HebraCiclicaEj2[numHebras];
+
+
+    for (int i=0; i<numHebras; i++) {
+      threads[i] = new HebraCiclicaEj2(i, numHebras, n, vectorX, vectorY);
+      threads[i].start();
+    }
+
+    for (int i=0; i<numHebras; i++) {
+      try {
+        threads[i].join();
+      }catch(InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
+
+    t2Ciclica = System.nanoTime();
+    tc = ( ( double ) ( t2Ciclica - t1Ciclica ) ) / 1.0e9;
+    System.out.println( "Tiempo paralelo (seg.):                    " + tc );
+    // (B)
     //// imprimeResultado( vectorX, vectorY );
     // Comprueba el resultado. 
     sumaX = sumaVector( vectorX );
     sumaY = sumaVector( vectorY );
-    System.out.println( "Suma del vector X:          " + sumaX );
-    System.out.println( "Suma del vector Y:          " + sumaY );
+    System.out.println( "Suma del vector X:                    " + sumaX );
+    System.out.println( "Suma del vector Y:                    " + sumaY );
+    System.out.println( "Incremento ciclica:           " + ts/tc );
+
     //
     // Implementacion paralela por bloques.
-    //
     // (C) ....
-    //
-*/
+    inicializaVectorX( vectorX );
+    inicializaVectorY( vectorY );
+
+    t1Bloques = System.nanoTime();
+
+    threads = new HebraBloquesEj2[numHebras];
+
+    for (int i=0; i<numHebras; i++) {
+      threads[i] = new HebraBloquesEj2(i, numHebras, n, vectorX, vectorY);
+      threads[i].start();
+    }
+
+    for (int i=0; i<numHebras; i++) {
+      try {
+        threads[i].join();
+      }catch(InterruptedException e) {
+        e.printStackTrace();
+      }
+    }
+
+    t2Bloques = System.nanoTime();
+    tb = ( ( double ) ( t2Bloques - t1Bloques ) ) / 1.0e9;
+    System.out.println( "Tiempo paralelo (seg.):                    " + tb );
+    ////imprimeResultado( vectorX, vectorY );
+    // Comprueba el resultado.
+    sumaX = sumaVector( vectorX );
+    sumaY = sumaVector( vectorY );
+    System.out.println( "Suma del vector X:                    " + sumaX );
+    System.out.println( "Suma del vector Y:                    " + sumaY );
+
+    System.out.println( "Incremento bloques:           " + ts/tb );
 
     System.out.println( "Fin del programa." );
   }

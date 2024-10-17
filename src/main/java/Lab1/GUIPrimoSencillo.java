@@ -1,4 +1,4 @@
-package org.example;
+package Lab1;
 
 import java.awt.*;
 import java.awt.event.*;

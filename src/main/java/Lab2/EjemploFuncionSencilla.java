@@ -1,7 +1,7 @@
 package Lab2;
 
 // ============================================================================
-class EjemploFuncionCostosa {
+class EjemploFuncionSencilla {
 // ============================================================================
 
   // --------------------------------------------------------------------------
@@ -129,7 +129,7 @@ class EjemploFuncionCostosa {
     System.out.println( "Suma del vector X:                    " + sumaX );
     System.out.println( "Suma del vector Y:                    " + sumaY );
 
-    System.out.println( "Incremento bloques::           " + ts/tb );
+    System.out.println( "Incremento bloques:           " + ts/tb );
 
     System.out.println( "Fin del programa." );
   }
@@ -163,7 +163,7 @@ class EjemploFuncionCostosa {
 
   // --------------------------------------------------------------------------
   static double evaluaFuncion( double x ) {
-    return -Math.cos( Math.exp( -x ) + Math.log1p( x ) );
+    return 2.5 * x;
   }
 
   // --------------------------------------------------------------------------

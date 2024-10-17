@@ -1,4 +1,4 @@
-package org.example.incremento;
+package Lab1;
 
 // ============================================================================
 class CuentaIncrementos {

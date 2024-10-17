@@ -1,8 +1,8 @@
-package org.example;
+package Lab1;
 
-class MiHebra extends Thread {
+class MiHebra1 extends Thread {
   int miId;
-  public MiHebra( int miId ) {
+  public MiHebra1( int miId ) {
     this.miId = miId;
   }
   public void run() {
@@ -13,8 +13,8 @@ class MiHebra extends Thread {
 }
 class EjemploCreacionThread {
   public static void main( String args[] ) {
-    new MiHebra(0).start();
-    new MiHebra(1).start();
+    new MiHebra1(0).start();
+    new MiHebra1(1).start();
     /*
     new MiHebra(0).run();
     new MiHebra(1).run();
