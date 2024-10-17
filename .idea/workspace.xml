@@ -6,16 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="62a52b17-a032-4a9c-bb8e-9e737f218d28" name="Changes" comment="holaa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionCostosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionCostosa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionSencilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploFuncionSencilla.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj2.java" beforeDir="false" />
     </list>
-    <list id="c6aa35a5-14ca-4de2-b181-a3813102e700" name="Changes by teo2d" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/EjemploMuestraNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab2/EjemploMuestraNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraBloquesEj1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lab2/HebraCiclicaEj1.java" beforeDir="false" />
-    </list>
+    <list id="c6aa35a5-14ca-4de2-b181-a3813102e700" name="Changes by teo2d" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,31 +36,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EjemploCreacionRunnable.executor": "Run",
-    "Application.EjemploCreacionThread.executor": "Run",
-    "Application.EjemploDaemon.executor": "Run",
-    "Application.EjemploFuncionCostosa.executor": "Run",
-    "Application.EjemploFuncionSencilla.executor": "Run",
-    "Application.EjemploMuestraNumeros.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/es/uji/Miri/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EjemploCreacionRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploCreacionThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploDaemon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploFuncionCostosa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploFuncionSencilla.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploMuestraNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/es/uji/Miri/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\scafa\IdeaProjects\LabsPCP\src\main\java\Lab2" />
@@ -81,7 +74,7 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploFuncionCostosa">
+  <component name="RunManager" selected="Application.EjemploFuncionSencilla">
     <configuration name="EjemploCreacionRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runnable.EjemploCreacionRunnable" />
       <module name="LabsPCP" />
@@ -124,7 +117,7 @@
     <configuration name="EjemploFuncionCostosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2.EjemploFuncionCostosa" />
       <module name="LabsPCP" />
-      <option name="PROGRAM_PARAMETERS" value="4 50000000" />
+      <option name="PROGRAM_PARAMETERS" value="4 5000000" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab2.*" />
@@ -138,7 +131,7 @@
     <configuration name="EjemploFuncionSencilla" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2.EjemploFuncionSencilla" />
       <module name="LabsPCP" />
-      <option name="PROGRAM_PARAMETERS" value="4 50000000" />
+      <option name="PROGRAM_PARAMETERS" value="2 50000000" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab2.*" />
@@ -163,6 +156,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.EjemploFuncionSencilla" />
+      <item itemvalue="Application.EjemploCreacionRunnable" />
+      <item itemvalue="Application.EjemploCreacionThread" />
+      <item itemvalue="Application.EjemploDaemon" />
+      <item itemvalue="Application.EjemploFuncionCostosa" />
+      <item itemvalue="Application.EjemploMuestraNumeros" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.EjemploFuncionCostosa" />
@@ -172,13 +173,6 @@
         <item itemvalue="Application.EjemploCreacionThread" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

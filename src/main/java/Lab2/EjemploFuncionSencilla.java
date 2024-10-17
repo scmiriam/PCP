@@ -104,10 +104,10 @@ class EjemploFuncionSencilla {
 
     t1Bloques = System.nanoTime();
 
-    threads = new HebraBloquesEj2C[numHebras];
+    threads = new HebraBloquesEj2[numHebras];
 
     for (int i=0; i<numHebras; i++) {
-      threads[i] = new HebraBloquesEj2C(i, numHebras, n, vectorX, vectorY);
+      threads[i] = new HebraBloquesEj2(i, numHebras, n, vectorX, vectorY);
       threads[i].start();
     }
 
