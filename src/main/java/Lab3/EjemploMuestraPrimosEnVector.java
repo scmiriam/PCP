@@ -189,7 +189,7 @@ class MiHebraPrimoDistPorBloques extends Thread{
   }
 
   public void run() {
-    int tam = (vector.length + numHebras - 1)/numHebras;
+    int tam = (vector.length)/numHebras;
     int ini = miId * tam;
     int fin = Math.min(vector.length, ini+tam);
     for(int i=ini; i<fin; i++) {

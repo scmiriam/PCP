@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a52b17-a032-4a9c-bb8e-9e737f218d28" name="Changes" comment="holaa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploAtomic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploCuentaIncrementos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploCuentaIncrementosSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploCuentaIncrementosVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploMuestraPrimosEnVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab3/EjemploMuestraPrimosEnVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploMuestraPrimosEnVector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,38 +35,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EjemploCreacionRunnable.executor": "Run",
-    "Application.EjemploCreacionThread.executor": "Run",
-    "Application.EjemploCuentaIncrementos (1).executor": "Run",
-    "Application.EjemploCuentaIncrementos.executor": "Run",
-    "Application.EjemploCuentaIncrementosAtomic.executor": "Run",
-    "Application.EjemploCuentaIncrementosSynchronized.executor": "Run",
-    "Application.EjemploCuentaIncrementosVolatile.executor": "Run",
-    "Application.EjemploDaemon.executor": "Run",
-    "Application.EjemploFuncionCostosa.executor": "Run",
-    "Application.EjemploFuncionSencilla.executor": "Run",
-    "Application.EjemploMuestraNumeros.executor": "Run",
-    "Application.EjemploMuestraPrimosEnVector.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/Lab3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/es/uji/Miri/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EjemploCreacionRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploCreacionThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploCuentaIncrementos (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploCuentaIncrementos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploCuentaIncrementosAtomic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploCuentaIncrementosSynchronized.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploCuentaIncrementosVolatile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploDaemon.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploFuncionCostosa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploFuncionSencilla.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploMuestraNumeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploMuestraPrimosEnVector.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/Lab3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/es/uji/Miri/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\scafa\IdeaProjects\LabsPCP\src\main\java\Lab3" />
@@ -88,11 +84,11 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploMuestraNumeros">
+  <component name="RunManager" selected="Application.EjemploCuentaIncrementosVolatile">
     <configuration name="EjemploCuentaIncrementos" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.EjemploCuentaIncrementos" />
       <module name="LabsPCP" />
-      <option name="PROGRAM_PARAMETERS" value="4 1000000" />
+      <option name="PROGRAM_PARAMETERS" value="4 10000000" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab3.*" />
@@ -106,7 +102,21 @@
     <configuration name="EjemploCuentaIncrementosAtomic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.EjemploCuentaIncrementosAtomic" />
       <module name="LabsPCP" />
-      <option name="PROGRAM_PARAMETERS" value="4 1000000" />
+      <option name="PROGRAM_PARAMETERS" value="4 10000000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploCuentaIncrementosSynchronized" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.EjemploCuentaIncrementosSynchronized" />
+      <module name="LabsPCP" />
+      <option name="PROGRAM_PARAMETERS" value="4 10000000" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab3.*" />
@@ -120,7 +130,7 @@
     <configuration name="EjemploCuentaIncrementosVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.EjemploCuentaIncrementosVolatile" />
       <module name="LabsPCP" />
-      <option name="PROGRAM_PARAMETERS" value="4 1000000" />
+      <option name="PROGRAM_PARAMETERS" value="4 10000000" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab3.*" />
@@ -176,7 +186,7 @@
     <configuration name="EjemploMuestraPrimosEnVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.EjemploMuestraPrimosEnVector" />
       <module name="LabsPCP" />
-      <option name="PROGRAM_PARAMETERS" value="4 0" />
+      <option name="PROGRAM_PARAMETERS" value="4 1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab3.*" />
@@ -188,6 +198,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EjemploCuentaIncrementosSynchronized" />
       <item itemvalue="Application.EjemploCuentaIncrementos" />
       <item itemvalue="Application.EjemploFuncionSencilla" />
       <item itemvalue="Application.EjemploCuentaIncrementosAtomic" />
@@ -198,11 +209,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploMuestraNumeros" />
-        <item itemvalue="Application.EjemploFuncionCostosa" />
-        <item itemvalue="Application.EjemploMuestraPrimosEnVector" />
         <item itemvalue="Application.EjemploCuentaIncrementosVolatile" />
         <item itemvalue="Application.EjemploCuentaIncrementosAtomic" />
+        <item itemvalue="Application.EjemploMuestraPrimosEnVector" />
+        <item itemvalue="Application.EjemploMuestraNumeros" />
+        <item itemvalue="Application.EjemploFuncionCostosa" />
       </list>
     </recent_temporary>
   </component>
