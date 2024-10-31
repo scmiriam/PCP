@@ -83,21 +83,52 @@ class MiHebraUnaAcumulacion extends Thread {
   }
 }
 
-
-/*
-
-// ===========================================================================
 class MiHebraMultAcumulacionAtomica extends Thread {
-// ===========================================================================
-// ...
+  // ===========================================================================
+  int miId, numHebras;
+  long numRectangulos;
+  DoubleAdder da;
+
+  MiHebraMultAcumulacionAtomica(int miId, int numHebras, long numRectangulos, DoubleAdder da){
+    this.miId = miId;
+    this.numHebras = numHebras;
+    this.numRectangulos = numRectangulos;
+    this.da = da;
+  }
+
+  public void run(){
+    double x, baseRectangulo = 1.0 / ((double)numRectangulos);
+    for (long i = miId; i<numRectangulos; i+=numHebras){
+      x = baseRectangulo * (((double)i)+0.5);
+      da.add(EjemploNumeroPI.f(x));
+    }
+  }
 }
 
 // ===========================================================================
 class MiHebraUnaAcumulacionAtomica extends Thread {
-// ===========================================================================
-// ...
+  // ===========================================================================
+  int miId, numHebras;
+  long numRectangulos;
+  DoubleAdder da;
+
+  MiHebraUnaAcumulacionAtomica(int miId, int numHebras, long numRectangulos, DoubleAdder da){
+    this.miId = miId;
+    this.numHebras = numHebras;
+    this.numRectangulos = numRectangulos;
+    this.da = da;
+  }
+
+  public void run(){
+    double x, sumaLocal = 0.0, baseRectangulo = 1.0 / ((double)numRectangulos);
+    for (long i = miId; i<numRectangulos; i+=numHebras){
+      x = baseRectangulo * (((double)i)+0.5);
+      sumaLocal += EjemploNumeroPI.f(x);
+    }
+    da.add(sumaLocal);
+  }
 }
-*/
+
 
 // ===========================================================================
 class EjemploNumeroPI {
@@ -187,7 +218,7 @@ class EjemploNumeroPI {
     tPar = ( ( double ) ( t2 - t1 ) ) / 1.0e9;
     System.out.println( "Calculo del numero PI:   " + pi );
     System.out.println( "Tiempo ejecucion (s.):   " + tPar );
-    System.out.println( "Incremento velocidad :   " + ... );
+    System.out.println( "Incremento velocidad :   " + tSec / tPar );
 
 /*
 
