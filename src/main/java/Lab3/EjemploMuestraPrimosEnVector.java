@@ -145,7 +145,7 @@ public class EjemploMuestraPrimosEnVector {
     } else {
       cond = true;
       long i = 2;
-      while( ( i < num )&&( cond ) ) { 
+      while( ( i < num )&&( cond ) ) {
         cond = ( num % i != 0 );
         i++;
       }
@@ -189,7 +189,7 @@ class MiHebraPrimoDistPorBloques extends Thread{
   }
 
   public void run() {
-    int tam = (vector.length + numHebras - 1)/numHebras;
+    int tam = (vector.length)/numHebras;
     int ini = miId * tam;
     int fin = Math.min(vector.length, ini+tam);
     for(int i=ini; i<fin; i++) {
@@ -262,7 +262,7 @@ class VectorNumeros {
       200000161L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
       200000183L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
       200000201L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
-      200000209L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 
+      200000209L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
       200000221L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
       200000237L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,
       200000239L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L, 4L,

@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62a52b17-a032-4a9c-bb8e-9e737f218d28" name="Changes" comment="holaa">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploAtomic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploCuentaIncrementos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploCuentaIncrementosSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploCuentaIncrementosVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploMuestraPrimosEnVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lab4T/EjemploNumeroPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lab4T/GUISecuenciaPrimos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab3/EjemploMuestraPrimosEnVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab3/EjemploMuestraPrimosEnVector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;teo2peer&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/scmiriam/PCP&quot;,
+    &quot;accountId&quot;: &quot;a5d5c0b3-ac8b-4567-a177-953896f85c12&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,7 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/scafa/IdeaProjects/LabsPCP/src/main/java/Lab3",
+    "last_opened_file_path": "D:/Datos_Pogramas/NextCloud/UJI/3o carrera/Sistemas_Distribuidos/PCP/src/main/java/Lab4T",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Datos_Pogramas\NextCloud\UJI\3o carrera\Sistemas_Distribuidos\PCP\src\main\java\Lab4T" />
       <recent name="C:\Users\scafa\IdeaProjects\LabsPCP\src\main\java\Lab3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +100,7 @@
       <recent name="Lab2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploMuestraNumeros">
+  <component name="RunManager" selected="Application.EjemploMuestraPrimosEnVector">
     <configuration name="EjemploCuentaIncrementos" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.EjemploCuentaIncrementos" />
       <module name="LabsPCP" />
@@ -198,9 +210,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploMuestraPrimosEnVector" />
         <item itemvalue="Application.EjemploMuestraNumeros" />
         <item itemvalue="Application.EjemploFuncionCostosa" />
-        <item itemvalue="Application.EjemploMuestraPrimosEnVector" />
         <item itemvalue="Application.EjemploCuentaIncrementosVolatile" />
         <item itemvalue="Application.EjemploCuentaIncrementosAtomic" />
       </list>
@@ -209,7 +221,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -228,6 +241,10 @@
       <workItem from="1729146921739" duration="1600000" />
       <workItem from="1729514400170" duration="13000" />
       <workItem from="1729688246044" duration="8093000" />
+      <workItem from="1729752315852" duration="272000" />
+      <workItem from="1729752608584" duration="776000" />
+      <workItem from="1730195205243" duration="322000" />
+      <workItem from="1730287125803" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="holaa">
       <option name="closed" value="true" />
